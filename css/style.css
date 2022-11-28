@@ -479,6 +479,9 @@ color: rgba(255, 255, 255, 0.6);
     border-color: var(--logo-item-color);
     transition: var(--transition-cubic);
 }
+.footer-input:hover{
+    outline: var(--logo-item-color);
+}
 .input-title{
     display: block;
 font-weight: 700;
@@ -507,6 +510,7 @@ color: #FFFFFF;
     margin-left: 12px;
     padding: 0px;
     border: none;
+    cursor: pointer;
 }
 .imput-knopka{
     fill: var(--first-color);
