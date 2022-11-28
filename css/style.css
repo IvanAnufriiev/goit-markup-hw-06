@@ -473,8 +473,11 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 
-
-
+}
+.footer-input:focus
+{
+    border-color: var(--logo-item-color);
+    transition: var(--transition-cubic);
 }
 .input-title{
     display: block;
@@ -765,8 +768,7 @@ color: #212121;
 margin-bottom: 12px;
 }
 .modal-form{   
-    
-    
+      
 }
 .modal-input{
     width: 100%;
@@ -788,6 +790,7 @@ transition: var(--transition-cubic);}
 .modal-coments:focus,
 .modal-coments:hover{
     border-color: var(--logo-item-color);
+    transition: var(--transition-cubic);
 }
 
 .input-wrap{
@@ -860,6 +863,15 @@ color: #757575;
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+.modal-check-text{
+    color: var(--logo-item-color);
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-left: 3px;
+
 }
 .modal-button-list{
     display: flex;
