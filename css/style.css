@@ -121,6 +121,7 @@ transition: color var(--transition-cubic);
     display: flex;
     align-items: center;
 }
+
 .header-contact:hover .image-contact,
 .header-contact:focus .image-contact{
     fill: var(--logo-item-color);
@@ -138,6 +139,7 @@ transition: color var(--transition-cubic);
     display: flex;
     align-items: center;
 }
+
 .header-contact-flex .header-contact + .header-contact{
     margin-left: 50px;
 }
@@ -148,6 +150,7 @@ transition: color var(--transition-cubic);
     gap: 10px;
     color: var(--titel-text-color);
 }
+
 .image-contact{
     fill: #757575;
 }
@@ -168,6 +171,7 @@ background-image:linear-gradient(
     url(../images/image-bg.jpg);
 background-repeat: no-repeat;
 }
+
 .main-title{
     max-width: 696px;
     height: 120px;
@@ -182,9 +186,11 @@ background-repeat: no-repeat;
     color: var(--first-color)
     
 }
+
 .hero-list{
     text-align: center;
 }
+
 .main-button{
     color: var(--first-color);
     background-color: var(--logo-item-color);
