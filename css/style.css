@@ -792,6 +792,10 @@ transition: var(--transition-cubic);}
     border-color: var(--logo-item-color);
     transition: var(--transition-cubic);
 }
+.modal-input-list{
+    display: flex;
+    justify-content: center;
+}
 
 .input-wrap{
     position: relative;
@@ -871,6 +875,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 margin-left: 3px;
+
 
 }
 .modal-button-list{
