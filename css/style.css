@@ -476,22 +476,24 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 .footer-input::placeholder{
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.25;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
-
 color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-input:focus
 {
-    border-color: var(--logo-item-color);
+   outline: var(--logo-item-color);
     transition: var(--transition-cubic);
 }
+
 .footer-input:hover{
-    outline: var(--logo-item-color);
+   border-color : var(--logo-item-color);
+   transition: var(--transition-cubic);
 }
 .input-title{
     display: block;
@@ -521,6 +523,10 @@ color: #FFFFFF;
     margin-left: 12px;
     padding: 0px;
     border: none;
+}
+.imput-button:focus,
+.imput-button:hover{
+    background-color: #188CE8;
 }
 .imput-knopka{
     fill: var(--first-color);
