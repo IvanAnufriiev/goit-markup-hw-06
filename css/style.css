@@ -470,9 +470,20 @@ background-color: transparent;
 padding:  0px 0px  0px 16px;
 align-items: center;
 letter-spacing: 0.03em;
+transform: border-color var(--transition-cubic) ;
 
 color: rgba(255, 255, 255, 0.6);
 
+}
+.footer-input::placeholder{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
 }
 .footer-input:focus
 {
@@ -510,7 +521,6 @@ color: #FFFFFF;
     margin-left: 12px;
     padding: 0px;
     border: none;
-    cursor: pointer;
 }
 .imput-knopka{
     fill: var(--first-color);
