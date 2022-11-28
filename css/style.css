@@ -834,6 +834,9 @@ color: #757575;
     border: none;
     fill: var(--first-color);
 }
+.input-checkbox{
+    margin-bottom: 30px;
+}
 .check-text{
     display: flex;
     align-items: center;
